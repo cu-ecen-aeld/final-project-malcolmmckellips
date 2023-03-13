@@ -6,7 +6,8 @@ case "$1" in
 		echo "starting a7 mods"
 		/usr/bin/scull_load
 		/usr/bin/module_load faulty
-		modprobe /usr/bin/hello.ko
+		#depmod
+		modprobe hello
 		;;
 	stop)
 		#start-stop-daemon -K -n aesdsocket
