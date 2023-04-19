@@ -1,29 +1,6 @@
-# buildroot-rpi
+# Malcolm McKellips Spring 2023 AESD Final Project
 
-This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
+Welcome to the submission repository for Malcolm McKellips's AESD final project. 
 
-We will be using rpi3
+Please see the Project Overview page for more information: https://github.com/cu-ecen-aeld/final-project-malcolmmckellips/wiki/Project-Overview
 
-Configuration of rpi  for Buildroot:
-----------------------------
-Other configuration of rpi:
-----------------------------
-For models A, B, A+ or B+:
-
-  $ make raspberrypi_defconfig
-
-For model Zero (model A+ in smaller form factor):
-
-  $ make raspberrypi0_defconfig
-
-For model 2 B:
-
-  $ make raspberrypi2_defconfig
-
-For model 3 B and B+:
-
-  $ make raspberrypi3_defconfig
-
-For model 4 B:
-
-  $ make raspberrypi4_defconfig
