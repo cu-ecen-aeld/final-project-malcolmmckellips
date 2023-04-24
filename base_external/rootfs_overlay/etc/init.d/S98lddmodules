@@ -8,6 +8,8 @@ case "$1" in
 		/usr/bin/module_load faulty
 		#depmod
 		modprobe hello
+		modprobe i2c-dev
+		modprobe i2c-bcm2835
 		;;
 	stop)
 		#start-stop-daemon -K -n aesdsocket
@@ -15,6 +17,8 @@ case "$1" in
 		/usr/bin/scull_unload
 		/usr/bin/module_unload faulty
 		rmmod hello
+		rmmod i2c-dev
+		rmmod i2c-bcm2835
 		;;
 	*)
 	exit 1
