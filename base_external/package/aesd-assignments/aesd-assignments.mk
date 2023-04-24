@@ -8,7 +8,7 @@
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
 #force another github action with this comment line...
 #AESD_ASSIGNMENTS_VERSION = '000373854b0dcf13557411120ca1c9b3b84ff457' #last known working commit.
-AESD_ASSIGNMENTS_VERSION = '4f683aeecc6d278722eea8134ab5b40492325a8f'
+AESD_ASSIGNMENTS_VERSION = 'c310a647abe20f3e19f2e810273689a49b465665'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
